@@ -3,6 +3,8 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
 import Widget from '../../components/widget/Widget'
 import './home.scss'
+import Featured from '../../components/featured/Featured'
+import Chart from '../../components/chart/Chart'
 
 const Home = () => {
   return (
@@ -20,7 +22,10 @@ const Home = () => {
         </div>
 
         {/*chart  */}
-        <div className='charts'></div>
+        <div className='charts'>
+          <Featured />
+          <Chart />
+        </div>
       </div>
     </div>
   )
