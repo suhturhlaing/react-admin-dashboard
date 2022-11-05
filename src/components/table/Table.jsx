@@ -82,7 +82,7 @@ const List = () => {
             <TableRow
               key={row.id}
             >
-              <TableCell component="th" scope="row">
+              <TableCell component="th" scope="row" className="tableCell">
                 {row.id}
               </TableCell>
               <TableCell className="tableCell">
